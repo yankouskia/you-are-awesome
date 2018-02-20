@@ -1,0 +1,23 @@
+{
+  "name": "you-are-awesome",
+  "version": "1.0.0",
+  "description": "You are awesome, aren't you?!",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankouskia/you-are-awesome.git"
+  },
+  "author": "Aliaksandr Yankouski <aleksandr.yankovskiy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yankouskia/you-are-awesome/issues"
+  },
+  "homepage": "https://github.com/yankouskia/you-are-awesome#readme",
+  "devDependencies": {
+    "mocha": "^5.0.1"
+  },
+  "dependencies": {}
+}
