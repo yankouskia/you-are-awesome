@@ -173,9 +173,9 @@ describe(('You are awesome, aren\'t you?'), () => {
     g.__proto__ = h;
     
     let arr = sortByProto([d, b, h, a]);
-    assert.deepEqual([arr], [a, b, d, h]);
+    assert.deepEqual(arr, [a, b, d, h]);
 
     arr = sortByProto([e, c, d, h]);
-    assert.deepEqual([arr], [c, d, e, h]);
+    assert.deepEqual(arr, [c, d, e, h]);
   });
 });
